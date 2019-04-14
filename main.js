@@ -1,3 +1,5 @@
+/*
+
 $(document).ready(function () {
 
 	$(window).resize(function () {
@@ -23,3 +25,4 @@ $(document).ready(function () {
 		$this.addClass('clicked');
 	});
 });
+*/

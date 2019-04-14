@@ -1,50 +1,88 @@
 * {
     font-family: 'Roboto', sans-serif;
+    /*font-size:20px;*/
+ 
 }
+
+body{
+    position:absolute;
+    right:0;
+    left:0;
+    
+}
+
 /* buttons */
 a.email-button{
     display:inline-block;
     padding:0.35em 1.2em;
-    border:0.1em solid #ffffff;
-    margin:0 0.3em 0.3em 0;
+    border:0.2em solid black;
+    margin:1.5em auto;
     border-radius:0;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
     font-weight:300;
-    color:white;
+    color:black;
     text-align:center;
     transition: all 0.2s;
+    font-weight: bold;
+
+
+    
 
 }
 
 a.email-button:hover{
-    color:#000000;
-    background-color:#FFFFFF;
+    color:white;
+    background-color:black;
+    
 }
 
-@media all and (max-width:30em){
+@media all and (max-width:20em){
     a.email-button{
     display:block;
     margin:0.4em auto;
     }
 }
-/* endbuttons */
+/* end of buttons */
+
+/* first section */
+section.first-section {
+    background-color:#f8f4f4;
+    
+    text-align:center; 
+
+}
 
 h1.intro {
     text-align:center;
     font-size:5em;
-    margin: 1em auto;
-    color: white;
-    font-style: black;
+    margin:1.5em auto 0.5em;
+    color: black;
+    font-weight:bold;
+    padding:0;
 }
 
-section.first-section{
-    background-color:#413505;
-    position: absolute;;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    
+
+
+
+/* end of first section */
+
+
+/* second section */
+
+section.second-section {
+    background-color:#f0e3fd;
+
+
+    text-align:center; 
+}
+
+h2.work {
+    text-align:center;
+    font-size:4em;
+    margin:1.5em auto 0.2em;
+    color: black;
+    font-weight:500;
+    padding:0.5em auto 0.5em;
 }
