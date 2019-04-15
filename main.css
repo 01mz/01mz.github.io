@@ -89,8 +89,8 @@ footer{
 
 }
 
-/* viewport is 800px or smaller */
-@media screen and (max-width: 700px) {
+/* viewport is 850px or smaller */
+@media screen and (max-width: 850px) {
     *{
         max-width:100%;
         font-size:90vb;
