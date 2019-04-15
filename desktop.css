@@ -1,0 +1,91 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.icon{
+    position:sticky;
+    top:0;
+    text-align:center;
+}
+/* buttons */
+a.email-button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.2em solid black;
+    margin:1.5em auto;
+    margin-bottom:10em;
+    border-radius:0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+    font-weight: bold;
+
+
+    
+
+}
+
+a.email-button:hover{
+    color:white;
+    background-color:black;
+    
+}
+
+@media all and (max-width:20em){
+    a.email-button{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+/* end of buttons */
+
+/* first section */
+section.first-section {
+    background-color:#f8f4f4;
+    float:left;
+    text-align:center; 
+
+}
+
+h1.intro {
+    text-align:center;
+    font-size:6vw;
+    margin-top:0;
+    margin-bottom:0.5em;
+    color: black;
+    font-weight:bold;
+    padding:2.5em 0 0 0.5em;
+}
+
+.description{
+    font-size:16px;
+}
+
+
+/* end of first section */
+
+
+/* second section */
+
+section.second-section {
+    background-color:#f0e3fd;
+    float:right;
+    text-align:center; 
+}
+
+h2.work {
+    text-align:center;
+    font-size:5vw;
+
+    color: black;
+    font-weight:500;
+    margin-top:0;
+
+    padding:1em 0 0 0;
+}

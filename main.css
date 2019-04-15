@@ -1,88 +1,148 @@
 * {
     font-family: 'Roboto', sans-serif;
-    /*font-size:20px;*/
- 
+    margin:0;
+    padding:0;
+    transition: 0.2s all;
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color:antiquewhite;
+
 }
 
-body{
-    position:absolute;
-    right:0;
-    left:0;
-    
+.main {
+    min-height: 100%; 
+    display: flex;
+    align-items: center;
+
+} 
+
+  
+  
+.main section {
+    flex: 50%;
 }
 
-/* buttons */
-a.email-button{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.2em solid black;
-    margin:1.5em auto;
-    border-radius:0;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:black;
+.section-one {
+
+    background-color: antiquewhite;
     text-align:center;
-    transition: all 0.2s;
-    font-weight: bold;
-
-
-    
-
-}
-
-a.email-button:hover{
-    color:white;
-    background-color:black;
-    
-}
-
-@media all and (max-width:20em){
-    a.email-button{
-    display:block;
-    margin:0.4em auto;
-    }
-}
-/* end of buttons */
-
-/* first section */
-section.first-section {
-    background-color:#f8f4f4;
-    
-    text-align:center; 
-
-}
-
-h1.intro {
-    text-align:center;
-    font-size:5em;
-    margin:1.5em auto 0.5em;
+    font-size:50px;
     color: black;
     font-weight:bold;
     padding:0;
+   
 }
 
-
-
-
-/* end of first section */
-
-
-/* second section */
-
-section.second-section {
-    background-color:#f0e3fd;
-
-
-    text-align:center; 
+.description {
+    font-size:20px;
 }
 
-h2.work {
+.section-two {
+    background-color:antiquewhite;
+    border-left:5px solid black;
+    
     text-align:center;
-    font-size:4em;
-    margin:1.5em auto 0.2em;
+    font-size:40px;
     color: black;
-    font-weight:500;
-    padding:0.5em auto 0.5em;
+    font-weight:bold;
+    padding:0;
+    
+}
+
+.section-two a{
+    text-decoration: none;
+    color:black;
+}
+
+.section-two a:hover{
+
+    color:blue;
+}
+
+.skills{
+    font-size:50px;
+    text-align:center;
+    margin-bottom:0.5em;
+}
+.skills p{
+    font-size:20px;
+    text-align:center;
+}
+
+.link{
+    font-size: 50%;
+}
+
+footer{
+    border-bottom:5px black solid;
+}
+
+@media screen and (max-width: 1200px) {
+  
+
+    .section-two {
+        border:none;
+    }
+
+}
+
+/* viewport is 800px or smaller */
+@media screen and (max-width: 700px) {
+    *{
+        max-width:100%;
+        font-size:90vb;
+    }
+    
+    img{
+        max-width:100%;
+    }
+    .main{
+        display:block;
+        font-size:20px;
+    }
+
+    .section-two {
+        padding: 1em 0;
+    }
+
+    .section-one h2{
+        font-size:75%;
+    }
+    .description{
+        padding: 1em 0;
+        max-width:80%;
+        text-align:center;
+        margin:0 auto;
+
+    }
+    .skills h2{
+        font-size:80%;
+    }
+    .skills p {
+        text-align:left;
+    }
+    #skills-container{
+        display:inline-block;
+        text-align:center;
+    }
+
+    .link{
+        font-size:20px;
+        display:block;
+    }
+
+    .github{
+        font-size:50px;
+        display:block;
+    }
+
+    .email{
+        font-size:50px;
+        margin-top: 1em;
+        display:block;
+    }
+
 }
