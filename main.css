@@ -1,14 +1,16 @@
+
 body {
 	display: flex;
 	flex-direction: column;
 	padding: 0;
 	margin: 0;
 	line-height: 1.8em;
-	
+
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
-	word-wrap: break-word
+	word-wrap: break-word;
+	
 }
 
 body:focus {
@@ -153,4 +155,27 @@ footer {
 	padding:100px 0 200px 0;
 	color:white;
 	background-color:black;
+}
+
+
+/*scrollbar*/
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+	background: white; 
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: black; 
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(82, 82, 6); 
 }
